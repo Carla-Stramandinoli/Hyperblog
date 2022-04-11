@@ -13,7 +13,7 @@ body {
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 #cabecera #tagline {
@@ -34,5 +34,6 @@ body {
 }
 
 #post {
+    border: 1px solid black;
     padding: 1em;
 }
