@@ -1,4 +1,5 @@
 body {
+    background: gray;
     text-align: center;
     font-family:'Courier';
     color: #333;
@@ -14,6 +15,11 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0.5em 0;
+}
+
+#cabecera #logo{
+    width: 50px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline {
@@ -34,6 +40,6 @@ body {
 }
 
 #post {
-    border: 1px solid black;
+    background: white;
     padding: 1em;
 }
